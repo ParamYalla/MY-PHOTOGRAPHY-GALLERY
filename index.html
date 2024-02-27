@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>My Photography gallery</h1>
+
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="images/morning/39.jpg" style="width:100%">
+    <img src="images/evening/12.jpg" style="width:100%">
+    <img src="images/evening/16.jpg" style="width:100%">
+    <img src="images/evening/21.jpg" style="width:100%">
+    <img src="images/evening/24.jpg" style="width:100%">
+    <img src="images/night/13.jpg" style="width:100%">
+    <img src="images/night/15.jpg" style="width:100%">
+    <img src="images/night/40.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/morning/32.jpg" style="width:100%">
+    <img src="images/evening/26.jpg" style="width:100%">
+    <img src="images/evening/27.jpg" style="width:100%">
+    <img src="images/evening/28.jpg" style="width:100%">
+    <img src="images/night/38.jpg" style="width:100%">
+    <img src="images/night/29.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="images/morning/35.jpg" style="width:100%">
+    <img src="images/evening/24.jpg" style="width:100%">
+    <img src="images/night/20.jpg" style="width:100%">
+    <img src="images/night/29.jpg" style="width:100%">
+    <img src="images/night/41.jpg" style="width:100%">
+  </div>
+  <div class="column">
+
+    <img src="images/evening/30.jpg" style="width:100%">
+    <img src="images/evening/14.jpg" style="width:100%">
+    <img src="images/evening/3.jpg" style="width:100%">
+    <img src="images/evening/26.jpg" style="width:100%">
+    <img src="images/evening/22.jpg" style="width:100%">
+    <img src="images/night/23.jpg" style="width:100%">
+    <img src="images/night/19.jpg" style="width:100%">
+    <img src="images/night/20220430_191000.jpg" style="width:100%">
+
+  </div>
+</div>
+
+</body>
+</html>
